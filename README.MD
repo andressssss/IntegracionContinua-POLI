@@ -1,26 +1,23 @@
-# Proyecto Docker Compose con MySQL y Backend Node.js
+# Proyecto integracion continua
 
-Este proyecto utiliza Docker Compose para configurar y ejecutar un contenedor de base de datos MySQL junto con un contenedor de un backend desarrollado en Node.js.
+Este proyecto utiliza Docker Compose para levantar un entorno de desarrollo con un contenedor para MySQL y otro para el backend. El contenedor de MySQL se conecta con el backend para permitir la interacción con la base de datos.
 
-## Índice
+## 1. Instalación
 
-1. [Instalación](#instalación)
-2. [Uso](#uso)
-3. [Estructura del Proyecto](#estructura-del-proyecto)
-4. [Contribución](#contribución)
-5. [Licencia](#licencia)
+Para instalar y levantar el entorno de desarrollo, sigue estos pasos:
 
-## Instalación
+### Requisitos previos
 
-A continuación se describen los pasos para instalar y ejecutar el proyecto en tu máquina local.
+- Tener [Docker](https://www.docker.com/products/docker-desktop) instalado en tu máquina.
+- Tener [Docker Compose](https://docs.docker.com/compose/install/) instalado.
 
-### Prerrequisitos
+### Pasos para la instalación
 
-- [Docker](https://www.docker.com/get-started) y [Docker Compose](https://docs.docker.com/compose/install/) instalados en tu máquina.
-
-### Pasos
-
-1. Clona el repositorio:
-
+1. Clone este repositorio en su máquina local:
    ```bash
-   git clone https://github.com/usuario/nombre-del-repo.git
+   git clone https://github.com/usuario/repositorio.git
+
+2. Ejecute el comando:
+    ```bash
+   docker-compose up
+
